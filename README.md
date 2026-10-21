@@ -19,7 +19,7 @@
 
 I'm a **Full-Stack Developer** with **~2 years of professional experience** building production web, mobile and backend systems end to end — from database schema and REST APIs to pixel-perfect UIs and app-store releases.
 
-- 🏥 Currently building a **health & wellness marketplace** — customer web app, admin console, Flutter mobile app and the Go API behind them
+- 🏥 Currently building [**StrongBody AI**](https://strongbody.ai) (web, admin & Go API) and [**MultiMe AI**](https://multime.ai) (web)
 - ⚙️ Comfortable across the stack: **Next.js / React** on the front, **Go / Node.js / Java** on the back, **PostgreSQL / MySQL / MongoDB** for data
 - ☁️ Ship on **AWS, Google Cloud & Vercel** with Docker and CI/CD
 - 🤖 Background in **AI / Computer Vision** — image captioning, OCR, multi-camera tracking
@@ -67,7 +67,8 @@ const khai = {
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Gin](https://img.shields.io/badge/Go_Gin-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![GORM](https://img.shields.io/badge/GORM-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
 **Database & Cloud**
@@ -85,13 +86,25 @@ const khai = {
 
 ## 💼 Experience
 
-**Full-Stack Developer** — Health & Wellness Marketplace · *20XX – Present*
-- Built the customer-facing **Next.js + TypeScript** web app (SSR/SEO, booking & checkout flows, real-time chat)
-- Developed the **React + Ant Design** admin console (KYC review, content & service management, analytics dashboards)
-- Implemented **Go** REST APIs integrating AWS (SQS/SNS), Google Cloud (Storage, Speech, Translate) and Sign in with Apple
-- Contributed to the **Flutter (BLoC)** mobile app shared with the web platform
+**Full-Stack Developer** — StrongBody AI & MultiMe AI · *2025 – Present*
 
-## 🚀 Featured Projects
+### 🏥 [StrongBody AI](https://strongbody.ai) — Global health & wellness marketplace
+Connects users with health experts and services worldwide. I work across **all three layers** of the platform:
+
+| Layer | What I built | Stack |
+|---|---|---|
+| **Web app** | Customer-facing marketplace: multilingual SSR/SEO pages, expert & service listings, booking/request-offer flows, payments, real-time chat | ![Next.js](https://img.shields.io/badge/-Next.js_16-000?style=flat-square&logo=nextdotjs) ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![next-intl](https://img.shields.io/badge/-next--intl-000?style=flat-square) ![Zustand](https://img.shields.io/badge/-Zustand-443E38?style=flat-square) |
+| **Admin console** | Back-office for operations: seller KYC review, service & content management, rich-text editors, drag-and-drop ordering, analytics charts | ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![AntD](https://img.shields.io/badge/-Ant_Design_5-0170FE?style=flat-square&logo=antdesign&logoColor=white) ![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) |
+| **Backend API** | REST + WebSocket services: auth (incl. Sign in with Apple), Stripe payments, async jobs via AWS SQS/SNS, file storage on S3/GCS, speech-to-text, TTS & translation | ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Stripe](https://img.shields.io/badge/-Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) |
+
+### 🎙️ [MultiMe AI](https://multime.ai) — Voice connect, audio community & in-chat offers
+A global platform for voice creators: AI voice translation, audio series & playlists, creator studio, credits purchase and buy/sell offers directly inside chat.
+- Built the **Next.js** web app: landing & SEO pages, creator profiles, studio, series/playlists, credits checkout and voice-translation flows
+- Smooth, animated UI with **Framer Motion**, **Lenis** and **Swiper**; product analytics with **PostHog**
+
+![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs) ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![PostHog](https://img.shields.io/badge/-PostHog-000?style=flat-square&logo=posthog)
+
+## 🚀 Personal Projects
 
 | Project | Description | Stack |
 |---|---|---|
