@@ -19,7 +19,7 @@
 
 I'm a **Full-Stack Developer** with **~2 years of professional experience** building production web, mobile and backend systems end to end — from database schema and REST APIs to pixel-perfect UIs and app-store releases.
 
-- 🏥 Currently building [**StrongBody AI**](https://strongbody.ai) (web, admin & Go API) and [**MultiMe AI**](https://multime.ai) (web)
+- 🏥 Currently building [**StrongBody AI**](https://strongbody.ai) (web, admin & Go API) and [**MultiMe AI**](https://multime.ai) (web); previously built a hospital **Laboratory Information System (LIS)**
 - ⚙️ Comfortable across the stack: **Next.js / React** on the front, **Go / Node.js / Java** on the back, **PostgreSQL / MySQL / MongoDB** for data
 - ☁️ Ship on **AWS, Google Cloud & Vercel** with Docker and CI/CD
 - 🤖 Background in **AI / Computer Vision** — image captioning, OCR, multi-camera tracking
@@ -103,6 +103,17 @@ A global platform for voice creators: AI voice translation, audio series & playl
 - Smooth, animated UI with **Framer Motion**, **Lenis** and **Swiper**; product analytics with **PostHog**
 
 ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs) ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Framer Motion](https://img.shields.io/badge/-Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white) ![PostHog](https://img.shields.io/badge/-PostHog-000?style=flat-square&logo=posthog)
+
+### 🧪 LIS — Laboratory Information System · *Dec 2024 – Jun 2025*
+*Private repo · team project for medical-facility laboratories*
+
+End-to-end system for managing hospital lab testing: test orders, samples, results, lab equipment and data exchange with HIS (hospital information systems). Monorepo with a **Next.js** frontend, a modular **Express + TypeScript** backend and a **C#** console app for device connectivity.
+- Built the **test-request workflow**: appointment & manual order entry, sample tracking, analysis-result queue, result entry/approval and detailed request views
+- Implemented **catalogue management** (test services, test indexes with quantitative/qualitative normal ranges, sample types, workstations, devices, API keys) with full CRUD, filtering & pagination
+- Added **barcode printing** (JsBarcode + QZ Tray), **PDF/print export** and **report pages** with Chart.js
+- Enforced **role-based permissions** across the UI; extended backend endpoints (filtering, status, completed-results listing) with Zod validation and a MongoDB repository layer
+
+![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs) ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PrimeReact](https://img.shields.io/badge/-PrimeReact-03C4E8?style=flat-square) ![MUI](https://img.shields.io/badge/-MUI-007FFF?style=flat-square&logo=mui&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000?style=flat-square&logo=express) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Zod](https://img.shields.io/badge/-Zod-3E67B1?style=flat-square&logo=zod&logoColor=white) ![JWT](https://img.shields.io/badge/-JWT-000?style=flat-square&logo=jsonwebtokens) ![C#](https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
 ## 🚀 Personal Projects
 
